@@ -1,0 +1,120 @@
+
+.body{
+    background-image: url('/src/images/banner.png');
+  
+  }
+   .background-con{
+  position: relative;
+  background-color: transparent;
+  border: 2px solid rgb(248, 169, 66);
+  backdrop-filter: blur(2px);
+  box-shadow: 0 0 20px  rgb(250, 163, 49);;
+  border-radius: 10px;
+  width: 420px;
+  height: 450px;
+  color: white;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 30rem;
+    margin-top: 5rem;
+}
+
+form h1{
+  text-align: center;
+  
+}
+
+.box-container{
+    padding: 50px;
+}
+
+
+
+
+ form .input-box1{
+    position: relative;
+    width: 100px;
+    height: 50px;
+    margin: 30px 0;
+   
+}
+  
+
+.input-box1 input{
+    width: 300px;
+    height: 50px;
+    background: transparent;
+    border-radius: 30px ;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    font-size: 16px;
+    color: white;
+    
+    
+}
+   .input-box1 input::placeholder{
+    color: white;
+   }
+.icon{
+    position: absolute;
+    top: 29%;
+    margin-left: 17rem;
+    font-size: 20px;
+    color: white;
+}
+.Remember-con{
+    display: flex;
+    justify-content: space-around;
+    font-size: 15px;
+    margin-top: -18px;
+}
+.check-boxcon{
+    display: flex;
+   
+}
+
+.box1{
+  width:15px ;
+  margin-top: 2px;
+}
+.forgot{
+    color: white;
+}
+
+.button1{
+    width: 315px;
+    height: 40px;
+    background: transparent;
+    border-radius: 30px ;
+    border: none;
+    outline: none;
+    color: black;
+    background-color: white;
+    margin-top:25px;
+}
+
+
+.Register-box{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 10px;
+   
+}
+
+.Register-box a{
+    color: white;
+}
+
+
+
+@media (max-width: 1100px) {
+    .body {
+       
+  
+       display: flex;
+       justify-content: center;
+    margin-left:-30rem;
+    }
+  }
